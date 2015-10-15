@@ -42,13 +42,12 @@ public class MainClass {
 				if (myChoice % 2 == 0)
 				{
 					evenCount++;
-					winGame++;
 				}
 				else if (cpuChoice % 2 != 0)
 				{
-					oddCount++;
-					winGame++;
+					oddCount++;					
 				}
+				winGame++;
 			}
 			else 
 			{
